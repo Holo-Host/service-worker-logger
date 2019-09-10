@@ -1,0 +1,27 @@
+{
+  "name": "@holo-host/service-worker-logger",
+  "version": "0.1.0",
+  "description": "A basic logging library that works in a service worker context",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./tests"
+  },
+  "author": "",
+  "contributors": [
+    "Matthew Brisebois <matthew.brisebois@holo.host>"
+  ],
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Holo-Host/service-worker-logger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Holo-Host/service-worker-logger/issues"
+  },
+  "homepage": "https://github.com/Holo-Host/service-worker-logger#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "loglevel": "^1.6.4",
+    "loglevel-plugin-prefix": "^0.8.4"
+  }
+}
